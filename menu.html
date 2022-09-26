@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+<style>
+     .menu-horizontal{
+        text-align: center;
+    }
+    .menu-horizontal>li.menu-item{
+        display: inline-block;
+        list-style-type: none;
+        margin-top: 30px;
+    }
+    .menu-horizontal>li.menu-item>a{
+        background-color:violet;
+        color: white;
+        font-size: x-large;
+        padding: 18px 15px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .menu-horizontal>li.menu-item>a:hover{
+        background-color: white;
+        color: rgb(248, 34, 248);
+    }
+  
+
+    .menu-vertical{
+        text-align: left;   
+        display: inline-block;
+            
+    }
+    .menu-vertical>li.menu-item2{
+        list-style-type: none;
+        margin: 40px;
+    }
+    .menu-vertical>li.menu-item2>a{
+        background-color: rgb(43, 110, 226);
+        color: white;
+        font-size: x-large;
+        padding: 18px 15px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .menu-vertical>li.menu-item2>a:hover{
+        background-color: white;
+        color: rgb(6, 93, 244);
+    }
+   
+.list{
+    font-size:;
+    color: rgb(0, 0, 139);
+    margin-left: 40px;
+}
+
+</style>
+   
+</head>
+<body>
+    <ul class="menu-horizontal">
+        <li class="menu-item"><a href="#">пункт 1</a></li>
+        <li class="menu-item"><a href="#">пункт 2</a></li>
+        <li class="menu-item"><a href="#">пункт 3</a></li>
+        <li class="menu-item"><a href="#">пункт 4</a></li>
+    </ul>
+
+    <ul class="menu-vertical">
+        <li class="menu-item2"><a href="#">пункт 1</a></li>
+        <li class="menu-item2"><a href="#">пункт 2</a></li>
+        <li class="menu-item2"><a href="#">пункт 3</a></li>
+        <li class="menu-item2"><a href="#">пункт 4</a></li>
+    </ul>
+    <van class="list"> 
+    <h3>3-х уровневый список:</h3>
+    <ul>
+       <li> список</a></li>
+        <ul>
+            <li>подсписок  списка</a></li>
+            <ul>
+                <li>подсписок подсписка списка</a></li>
+            </ul>
+        </ul>
+    </ul>
+    </van>
+</body>
+</html>
